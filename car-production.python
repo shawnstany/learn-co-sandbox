@@ -1,0 +1,140 @@
+print (“Vehicle Production to Vehicle delivery procedure”)
+print (“Vehicle Production metal type”)
+vehicle_to_be_built = input(“please enter vehicle to be built,” “enter Car or Truck or SUV”)
+
+# This is to select the proper metal for the built
+
+If vehicle_to_be_built.upper() == “Car”:
+car_type = input ( ‘ “Sports” or “Sedan” ’)
+
+If car_type.upper() == “Sports”:
+print( “Please use alloy for this”, car_type.upper(),  ‘car’ )
+elif car_type.upper() == “Sedan”:
+print (“ Please use new generation rigged steel”)
+else:
+      print(“ Invalid selection” + car_type.upper() + “Does not exist”)
+
+If vehicle_to_be_built.upper() == “Truck”:
+Truck_type = input(‘ Please select’,  “Mid-size” or “Full size”’)
+If truck_type.upper() == “Mid-size”:
+print( “Please use reinforced steel for this”, vehicle_to_be_built)
+elif truck_type.upper() == “Full size”:
+print (“ Please use new generation rigged steel”)
+else:
+      print(“ Invalid selection” + truck_type.upper() + “Does not exist”)
+
+If vehicle_to_be_built == “SUV”:
+print( “Please use grade 1 steel for this”, vehicle_to_be_built)
+Else:
+      pass
+
+
+
+print(“Please choose vehicle  color”)
+vehicle_color = input(“please enter the color the vehicle is to painted,” “Choices are Red, White, Blue, Black)
+
+If vehicle_color == “Red”:
+print( “Place  vehicle in Bay 1”)
+
+elif vehicle_color == “White”:
+print( “Place  vehicle in Bay 2”)
+
+elif vehicle_color == “Blue”:
+print( “Place  vehicle in Bay 3”)
+
+If vehicle_color == “Black”:
+print( “Place  vehicle in Bay 4”)
+else:
+        print(“Invalid selection”)
+
+vehicle_housing = input( “Please enter the store that the vehicle is going to  ”)
+If vehicle_housing.upper() ==“store_1”:
+print( “Place this vehicle in the East housing bay”)
+
+If vehicle_housing.upper() == “store_2”:
+print( “Place this vehicle in the West housing bay”)
+
+
+If vehicle_housing.upper() == “store_3”:
+print( “Place this vehicle in the North housing bay”)
+
+else:
+     print(“ Invalid store. Please select from the options above”)
+
+print( “Vehicle weight”)
+
+sedan_weight = 3500
+sports_car_weight = 3000
+midsize_truck_weight = 4000
+fullsize_truck_weight = 5500
+suv_weight = 4500
+
+print(“what type of vehicle are you weighing”)
+
+vehicle_type = input( “sedan” , “sports “, “midsize”, “fullsize”, “ suv”)
+
+if vehicle_type.lower() = “sedan”:
+print( “ Enter sedan weight displayed on the auto scale”)
+
+sedan_lb = input( “Enter weight”)
+if sedan_lb == “sedan_weight”:
+print( “This vehicle is at the proper weight. Proceed to shipping container”)
+elif sedan_lb != “ sedan_weight”:
+print( “ This vehicle is not at standard weight. Please check the vehicle for left over tools”) 
+
+
+
+if vehicle_type.lower() = “sports”:
+
+print( “ Enter sports car weight displayed on the auto scale”)
+
+sports_car _lb = input( “Enter weight”)
+if sports_car _lb == “sports_car_weight”:
+print( “This vehicle is at the proper weight. Proceed to shipping container”)
+elif sports_car_lb != “sports_car_weight”:
+print( “ This vehicle is not at standard weight. Please check the vehicle for left over tools”) 
+
+if vehicle_type.lower() = “midsize”:
+
+print( “ Enter Mid-Size weight displayed on the auto scale)
+
+midsize_truck_lb = input( “Enter weight”)
+if midsize_truck_lb == “midsize_truck_weight”:
+print( “This vehicle is at the proper weight. Proceed to shipping container”)
+elif midsize_truck_lb > “midsize_truck_weight”:
+print( “ The extra weight is due to the customized package. The shipping company will charge 50 cents for every LB over standard weight”) 
+
+if vehicle_type.lower() = “fullssize”:
+
+print( “ Enter full size truck weight displayed on the auto scale”)
+fullsize_truck _lb = input( “Enter weight”)
+if  fullsize_truck _lb == “fullsize_truck_weight”:
+print( “This vehicle is at the proper weight. Proceed to shipping container”)
+elif fullsize_truck _lb != “fullsize_truck_weight”:
+print( “ This vehicle is not at standard weight. Please check the vehicle for left over tools”) 
+
+
+
+print( “ Shipping company to be used per region”)
+
+shipping_region =input( “Enter the region of the world the vehicle is to be sent to”)
+
+If shipping_region == “Europe”:
+Print( “Use E Freight”)
+
+elif shipping_region == “Asia”:
+Print( “Use Ming Freight”)
+
+elif shipping_region == “South America”:
+Print( “Use Sanchez Freight”)
+
+elif shipping_region == “Africa”:
+Print( “Use Sudan Freight”)
+
+elif shipping_region == “Europe”:
+Print( “Use E Freight”)
+
+If shipping_region = “Australia”:
+Print( “Use  Freight Down-Under”)
+else:
+      print (“Invalid region. Please select from the 7 continents”)
